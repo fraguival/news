@@ -1,0 +1,43 @@
+@media (max-width: 720px) {
+    .fire {
+        display: block;
+    }
+    .navbar {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .navbar__menu {
+        position: absolute;
+        top: 120px;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #2f3640;
+        width: 50%;
+        height: 0;
+        overflow: hidden;
+        border-radius: 12px;
+        transition: height .5s linear;
+    }
+    .menu__link {
+        
+        color: #616161;
+    }
+    .show {
+        height: 362px;
+    }
+    .news-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .banner__content {
+        width: 80%;
+    }
+    .footer__menu {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 480px) {
+    .news-cards {
+        grid-template-columns: 1fr;
+    }
+}

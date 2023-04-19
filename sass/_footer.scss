@@ -1,0 +1,29 @@
+.footer-links {
+    background-color: #2f3640;
+    font-size: 12px;
+    padding: 36px 0;
+    border-radius: 12px;
+}
+.footer__link {
+    color: #616161;
+    display: block;
+    line-height: 2.8;
+}
+.footer__menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    align-items: flex-start;
+    justify-content: center;
+}
+.footer {
+    background-color: #2f3640;
+    color: #616161;
+    font-size: 24px;
+    margin-top: 12px;
+    margin-bottom: 24px;
+    padding: 24px;
+    text-align: center;
+    border-radius: 12px;
+}
+

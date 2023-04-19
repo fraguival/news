@@ -1,0 +1,37 @@
+.fire {
+    position: absolute;
+    top: 16px;
+    left: 32px;
+    z-index: 2;
+    color: #616161;
+    font-size: 32px;
+    cursor: pointer;
+    transform: rotate(90deg);
+    display: none;
+    transition: .5s;
+}
+.rotate {
+    transform: rotate(180deg);
+}
+.navbar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 120px;
+    height: 240px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+.navbar__menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.icon-search {
+    color: #616161;
+}
+.menu__link {
+    color: #616161;
+    padding: 12px;
+}
+.menu__link:hover {
+    border-bottom: 2px solid;
+}

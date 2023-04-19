@@ -1,0 +1,70 @@
+.news-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+.cards__image {
+    height: 200px;
+    object-fit: cover;
+    margin: 72px 0;
+}
+.cards__link {
+    display: inline-block;
+    color: #f2f2f2;
+    padding: 12px 0;
+}
+.cards__link [class*="icon-"]::before {
+    position: relative;
+    top: 2px;
+    left: 6px;
+}
+.cards__link [class*="icon-"] {
+    color: #f2f2f2;
+}
+.cards-banner-one {
+    background-image: url('../images/tech-red.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 362px;
+    margin-bottom: 42px;
+    border-radius: 12px;
+}
+.banner__content {
+    width: 40%;
+    padding: 90px 0 0 30px;
+}
+.cards-banner-two {
+    background-image: url('../images/image-five.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 362px;
+    margin-bottom: 42px;
+    border-radius: 12px;
+}
+.banner__title, .banner__text {
+    margin: 12px 0 24px 0;
+}
+.cards-banner-one [class*="icon-"]::before, .cards-banner-two [class*="icon-"]::before {
+    position: relative;
+    top: 2px;
+    left: 6px;
+}
+.social {
+    margin: 48px;
+}
+.social__text {
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links__link {
+    font-size: 28px;
+    margin: 0 32px;
+}
